@@ -6,6 +6,7 @@ import com.murcia.utils.*;
 public class ArmarPedido {
     private ListaEnlazada armarPedidoLlevar;
     private ListaEnlazada armarPedidoComanda;
+    private Cliente cliente;
     
     public ArmarPedido(){
         armarPedidoLlevar = new ColaEnlazada();
@@ -35,6 +36,17 @@ public class ArmarPedido {
         String resultado = "";
         for (int i=0; i < armarPedidoComanda.size(); i++){
             resultado += armarPedidoComanda.get(i) + "\n__________________________________";
+        } 
+        return resultado;
+    }
+     
+      public String buscarclienteComanda (String m){
+        String resultado = "";
+        for (int i=0; i < armarPedidoComanda.size(); i++){
+            if(cliente.getnomCliente().equals(m)){
+                resultado += armarPedidoComanda.get(i) + "\n__________________________________";
+                
+            }
         } 
         return resultado;
     }

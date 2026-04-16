@@ -71,12 +71,10 @@ public class TiendaDePostres {
                 System.out.println("");
                
             }if (opc == '5'){//buscar
-                String pre;
-                pre=Input.nextLine("Nombre cliente que desea buscar: ");
-                if(pre == n.getnomCliente){
-                    
-                }
-               
+                String info;
+                info=Input.nextLine("Nombre cliente que busca: ");
+                lisComanda.buscarclienteComanda(info);
+                
             }
         } while (opc != SALIR);
         

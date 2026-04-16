@@ -7,6 +7,7 @@ public class Cliente {
     private String nomCliente;
     private String telCliente;
     private String direcCliente;
+    
   
     //metodos
     
@@ -17,6 +18,7 @@ public class Cliente {
         this.telCliente = telefono;
         this.direcCliente = direccion;
     }
+    
     public String getnomCliente(){
         return nomCliente;
     }
@@ -43,13 +45,6 @@ public class Cliente {
             "\nTelefono del Cliente: " + telCliente + 
             "\nDireccion: " + direcCliente;
     }
-    /*public String mostrarPedidoLlevar (){
-        nomCliente.setnomCliente = 0;
-        return nomCliente;
-    }*/
-    
-    
-    
     
     
 }
