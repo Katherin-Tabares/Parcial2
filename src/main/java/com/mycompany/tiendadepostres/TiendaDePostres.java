@@ -13,7 +13,7 @@ public class TiendaDePostres {
         
         final char SALIR = '6';
         String []opt = {"1. Comanda", "2. Para llevar", "3. Mostrar pedidos comanda", 
-            "4. Mostrar pedidos para Llevar", "5. Buscar","6. Terminar"};
+            "4. Mostrar pedidos para Llevar", "5. Buscar cliente comanda","6. Terminar"};
         Menu mnu = new Menu(opt, 'V', " ", "TIENDA DE POSTRES EEVEEBURON");
         char opc;
 

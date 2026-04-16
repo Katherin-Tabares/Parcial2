@@ -45,9 +45,9 @@ public class ArmarPedido {
         for (int i=0; i < armarPedidoComanda.size(); i++){
             if(cliente.getnomCliente().equals(m)){
                 resultado += armarPedidoComanda.get(i) + "\n__________________________________";
-                
+                return resultado;
             }
         } 
-        return resultado;
+        return "";
     }
 }
