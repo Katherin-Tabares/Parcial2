@@ -22,6 +22,8 @@ public class ArmarPedido {
     public void AgregarPedidoComanda (Object pedidoC) {
         armarPedidoComanda.add(pedidoC);
     }
+    
+    
     public String mostrarPedidoLlevar (){
         String resultado = "";
         for (int i=0; i < armarPedidoLlevar.size(); i++){

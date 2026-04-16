@@ -40,11 +40,12 @@ public class Comanda {
         ListaEnlazada armarPedido = new ColaEnlazada();
         armarPedido.add(pedido);
     }*/
-   
+    
     public String toString(){
         return "\nCliente: " + cliente.InfoComanda() + 
                 "\nPostre del Pedido: " + postre +
                 "\nNumero de mesa: " + nmesa +
                 "\nCandidad de postres: " + cantPostre;
     }
+    
 }

@@ -43,7 +43,10 @@ public class Cliente {
             "\nTelefono del Cliente: " + telCliente + 
             "\nDireccion: " + direcCliente;
     }
-    
+    /*public String mostrarPedidoLlevar (){
+        nomCliente.setnomCliente = 0;
+        return nomCliente;
+    }*/
     
     
     
